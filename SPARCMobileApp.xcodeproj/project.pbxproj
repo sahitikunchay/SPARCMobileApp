@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9399C0D23C4BF6A00B7F07B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9399C0C23C4BF6A00B7F07B /* AppDelegate.swift */; };
+		D9399C0F23C4BF6A00B7F07B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9399C0E23C4BF6A00B7F07B /* SceneDelegate.swift */; };
+		D9399C1123C4BF6A00B7F07B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9399C1023C4BF6A00B7F07B /* ContentView.swift */; };
+		D9399C1323C4BF6D00B7F07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9399C1223C4BF6D00B7F07B /* Assets.xcassets */; };
+		D9399C1623C4BF6D00B7F07B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9399C1523C4BF6D00B7F07B /* Preview Assets.xcassets */; };
+		D9399C1923C4BF6D00B7F07B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9399C1723C4BF6D00B7F07B /* LaunchScreen.storyboard */; };
+		D9399C2423C4BF6D00B7F07B /* SPARCMobileAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9399C2323C4BF6D00B7F07B /* SPARCMobileAppTests.swift */; };
+		D9399C2F23C4BF6D00B7F07B /* SPARCMobileAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9399C2E23C4BF6D00B7F07B /* SPARCMobileAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9399C2023C4BF6D00B7F07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9399C0123C4BF6A00B7F07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9399C0823C4BF6A00B7F07B;
+			remoteInfo = SPARCMobileApp;
+		};
+		D9399C2B23C4BF6D00B7F07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9399C0123C4BF6A00B7F07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9399C0823C4BF6A00B7F07B;
+			remoteInfo = SPARCMobileApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9399C0923C4BF6A00B7F07B /* SPARCMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPARCMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9399C0C23C4BF6A00B7F07B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9399C0E23C4BF6A00B7F07B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D9399C1023C4BF6A00B7F07B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9399C1223C4BF6D00B7F07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9399C1523C4BF6D00B7F07B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9399C1823C4BF6D00B7F07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9399C1A23C4BF6D00B7F07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9399C1F23C4BF6D00B7F07B /* SPARCMobileAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPARCMobileAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9399C2323C4BF6D00B7F07B /* SPARCMobileAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPARCMobileAppTests.swift; sourceTree = "<group>"; };
+		D9399C2523C4BF6D00B7F07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9399C2A23C4BF6D00B7F07B /* SPARCMobileAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPARCMobileAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9399C2E23C4BF6D00B7F07B /* SPARCMobileAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPARCMobileAppUITests.swift; sourceTree = "<group>"; };
+		D9399C3023C4BF6D00B7F07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9399C0623C4BF6A00B7F07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9399C1C23C4BF6D00B7F07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9399C2723C4BF6D00B7F07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9399C0023C4BF6A00B7F07B = {
+			isa = PBXGroup;
+			children = (
+				D9399C0B23C4BF6A00B7F07B /* SPARCMobileApp */,
+				D9399C2223C4BF6D00B7F07B /* SPARCMobileAppTests */,
+				D9399C2D23C4BF6D00B7F07B /* SPARCMobileAppUITests */,
+				D9399C0A23C4BF6A00B7F07B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9399C0A23C4BF6A00B7F07B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9399C0923C4BF6A00B7F07B /* SPARCMobileApp.app */,
+				D9399C1F23C4BF6D00B7F07B /* SPARCMobileAppTests.xctest */,
+				D9399C2A23C4BF6D00B7F07B /* SPARCMobileAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9399C0B23C4BF6A00B7F07B /* SPARCMobileApp */ = {
+			isa = PBXGroup;
+			children = (
+				D9399C0C23C4BF6A00B7F07B /* AppDelegate.swift */,
+				D9399C0E23C4BF6A00B7F07B /* SceneDelegate.swift */,
+				D9399C1023C4BF6A00B7F07B /* ContentView.swift */,
+				D9399C1223C4BF6D00B7F07B /* Assets.xcassets */,
+				D9399C1723C4BF6D00B7F07B /* LaunchScreen.storyboard */,
+				D9399C1A23C4BF6D00B7F07B /* Info.plist */,
+				D9399C1423C4BF6D00B7F07B /* Preview Content */,
+			);
+			path = SPARCMobileApp;
+			sourceTree = "<group>";
+		};
+		D9399C1423C4BF6D00B7F07B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9399C1523C4BF6D00B7F07B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9399C2223C4BF6D00B7F07B /* SPARCMobileAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9399C2323C4BF6D00B7F07B /* SPARCMobileAppTests.swift */,
+				D9399C2523C4BF6D00B7F07B /* Info.plist */,
+			);
+			path = SPARCMobileAppTests;
+			sourceTree = "<group>";
+		};
+		D9399C2D23C4BF6D00B7F07B /* SPARCMobileAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9399C2E23C4BF6D00B7F07B /* SPARCMobileAppUITests.swift */,
+				D9399C3023C4BF6D00B7F07B /* Info.plist */,
+			);
+			path = SPARCMobileAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9399C0823C4BF6A00B7F07B /* SPARCMobileApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9399C3323C4BF6D00B7F07B /* Build configuration list for PBXNativeTarget "SPARCMobileApp" */;
+			buildPhases = (
+				D9399C0523C4BF6A00B7F07B /* Sources */,
+				D9399C0623C4BF6A00B7F07B /* Frameworks */,
+				D9399C0723C4BF6A00B7F07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPARCMobileApp;
+			productName = SPARCMobileApp;
+			productReference = D9399C0923C4BF6A00B7F07B /* SPARCMobileApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9399C1E23C4BF6D00B7F07B /* SPARCMobileAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9399C3623C4BF6D00B7F07B /* Build configuration list for PBXNativeTarget "SPARCMobileAppTests" */;
+			buildPhases = (
+				D9399C1B23C4BF6D00B7F07B /* Sources */,
+				D9399C1C23C4BF6D00B7F07B /* Frameworks */,
+				D9399C1D23C4BF6D00B7F07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9399C2123C4BF6D00B7F07B /* PBXTargetDependency */,
+			);
+			name = SPARCMobileAppTests;
+			productName = SPARCMobileAppTests;
+			productReference = D9399C1F23C4BF6D00B7F07B /* SPARCMobileAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9399C2923C4BF6D00B7F07B /* SPARCMobileAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9399C3923C4BF6D00B7F07B /* Build configuration list for PBXNativeTarget "SPARCMobileAppUITests" */;
+			buildPhases = (
+				D9399C2623C4BF6D00B7F07B /* Sources */,
+				D9399C2723C4BF6D00B7F07B /* Frameworks */,
+				D9399C2823C4BF6D00B7F07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9399C2C23C4BF6D00B7F07B /* PBXTargetDependency */,
+			);
+			name = SPARCMobileAppUITests;
+			productName = SPARCMobileAppUITests;
+			productReference = D9399C2A23C4BF6D00B7F07B /* SPARCMobileAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9399C0123C4BF6A00B7F07B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Sahiti Kunchay";
+				TargetAttributes = {
+					D9399C0823C4BF6A00B7F07B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					D9399C1E23C4BF6D00B7F07B = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = D9399C0823C4BF6A00B7F07B;
+					};
+					D9399C2923C4BF6D00B7F07B = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = D9399C0823C4BF6A00B7F07B;
+					};
+				};
+			};
+			buildConfigurationList = D9399C0423C4BF6A00B7F07B /* Build configuration list for PBXProject "SPARCMobileApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9399C0023C4BF6A00B7F07B;
+			productRefGroup = D9399C0A23C4BF6A00B7F07B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9399C0823C4BF6A00B7F07B /* SPARCMobileApp */,
+				D9399C1E23C4BF6D00B7F07B /* SPARCMobileAppTests */,
+				D9399C2923C4BF6D00B7F07B /* SPARCMobileAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9399C0723C4BF6A00B7F07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9399C1923C4BF6D00B7F07B /* LaunchScreen.storyboard in Resources */,
+				D9399C1623C4BF6D00B7F07B /* Preview Assets.xcassets in Resources */,
+				D9399C1323C4BF6D00B7F07B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9399C1D23C4BF6D00B7F07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9399C2823C4BF6D00B7F07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9399C0523C4BF6A00B7F07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9399C0D23C4BF6A00B7F07B /* AppDelegate.swift in Sources */,
+				D9399C0F23C4BF6A00B7F07B /* SceneDelegate.swift in Sources */,
+				D9399C1123C4BF6A00B7F07B /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9399C1B23C4BF6D00B7F07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9399C2423C4BF6D00B7F07B /* SPARCMobileAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9399C2623C4BF6D00B7F07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9399C2F23C4BF6D00B7F07B /* SPARCMobileAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9399C2123C4BF6D00B7F07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9399C0823C4BF6A00B7F07B /* SPARCMobileApp */;
+			targetProxy = D9399C2023C4BF6D00B7F07B /* PBXContainerItemProxy */;
+		};
+		D9399C2C23C4BF6D00B7F07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9399C0823C4BF6A00B7F07B /* SPARCMobileApp */;
+			targetProxy = D9399C2B23C4BF6D00B7F07B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9399C1723C4BF6D00B7F07B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9399C1823C4BF6D00B7F07B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9399C3123C4BF6D00B7F07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9399C3223C4BF6D00B7F07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9399C3423C4BF6D00B7F07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SPARCMobileApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SPARCMobileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sahitikunchay.SPARCMobileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9399C3523C4BF6D00B7F07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SPARCMobileApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SPARCMobileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sahitikunchay.SPARCMobileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9399C3723C4BF6D00B7F07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SPARCMobileAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sahitikunchay.SPARCMobileAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPARCMobileApp.app/SPARCMobileApp";
+			};
+			name = Debug;
+		};
+		D9399C3823C4BF6D00B7F07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SPARCMobileAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sahitikunchay.SPARCMobileAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPARCMobileApp.app/SPARCMobileApp";
+			};
+			name = Release;
+		};
+		D9399C3A23C4BF6D00B7F07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SPARCMobileAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sahitikunchay.SPARCMobileAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SPARCMobileApp;
+			};
+			name = Debug;
+		};
+		D9399C3B23C4BF6D00B7F07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SPARCMobileAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sahitikunchay.SPARCMobileAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SPARCMobileApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9399C0423C4BF6A00B7F07B /* Build configuration list for PBXProject "SPARCMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9399C3123C4BF6D00B7F07B /* Debug */,
+				D9399C3223C4BF6D00B7F07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9399C3323C4BF6D00B7F07B /* Build configuration list for PBXNativeTarget "SPARCMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9399C3423C4BF6D00B7F07B /* Debug */,
+				D9399C3523C4BF6D00B7F07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9399C3623C4BF6D00B7F07B /* Build configuration list for PBXNativeTarget "SPARCMobileAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9399C3723C4BF6D00B7F07B /* Debug */,
+				D9399C3823C4BF6D00B7F07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9399C3923C4BF6D00B7F07B /* Build configuration list for PBXNativeTarget "SPARCMobileAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9399C3A23C4BF6D00B7F07B /* Debug */,
+				D9399C3B23C4BF6D00B7F07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9399C0123C4BF6A00B7F07B /* Project object */;
+}
